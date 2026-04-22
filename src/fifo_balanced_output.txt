@@ -1,0 +1,8 @@
+===== Summary Metrics =====
+Total tasks completed: 500
+Makespan: 15734 ms
+Average wait time: 7839.13 ms
+Average turnaround time: 7962.65 ms
+Max wait time: 15555 ms
+CPU tasks completed: 259
+IO tasks completed: 241

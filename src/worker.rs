@@ -21,9 +21,7 @@ pub fn start_workers(
 
                     println!(
                         "Worker {} started task {} [{:?}]",
-                        worker_id,
-                        task.id,
-                        task.kind
+                        worker_id, task.id, task.kind
                     );
 
                     thread::sleep(Duration::from_millis(task.duration_ms));
@@ -32,9 +30,7 @@ pub fn start_workers(
 
                     println!(
                         "Worker {} finished task {} [{:?}]",
-                        worker_id,
-                        task.id,
-                        task.kind
+                        worker_id, task.id, task.kind
                     );
 
                     record_task_completion(
